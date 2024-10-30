@@ -20,6 +20,7 @@ rgb(8, 27, 41);
 #112e42
 #112e42
 
+{new Date().getFullYear()}
 
 .home-imgHover img{
     width: 90%;
