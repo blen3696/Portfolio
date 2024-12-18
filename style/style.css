@@ -11,10 +11,21 @@
     scroll-behavior: smooth;
 }
 :root {
-    --bg-color: #1f1e31;
-    --second-bg-color:#181725;
+    --bg-color: #0a192f;        /*#1f1e31;#181725;*/
+    --second-bg-color:#15223a ;
     --text-color:white;
-    --main-color: #11E497;
+    --main-color: #64ffda;
+    --second-text-color:#8892b0;
+    --another-text-color:  #a8b2d1;   
+    
+  /*  Navy	#0a192f #0a192f
+Light Navy	#112240 #112240
+Lightest Navy	#233554 #233554
+Slate	#8892b0 #8892b0
+Light Slate	#a8b2d1 #a8b2d1
+Lightest Slate	#ccd6f6 #ccd6f6
+White	#e6f1ff #e6f1ff
+Green	#64ffda #64ffda/* #11E497*/
 }
 
 html {
@@ -35,8 +46,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background-color:hsla(243, 24%, 15%, 0.612);
+    padding: 1.5rem 3%;
+    background-color: transparent;
     backdrop-filter: Blur(10px);
     display: flex;
     justify-content: space-between;
@@ -45,21 +56,21 @@ body {
     transition: .3s;
 }
 .sticky{
-    background-color:hsla(243, 24%, 15%, 0.612);
+    background-color:#0a192fd3;
     backdrop-filter: Blur(10px);
 }
 
 .logo img{
-    width: 60px;
+    width: 50px;
 }
 .navbar{
     position: relative;
 }
 .navbar a{
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
     transition: .3s;
 }
 .navbar i {
@@ -107,7 +118,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 .hero {
-    background-image: url(../images/pexels-anna-nekrashevich-8534567.jpg);
+    background-image: url(../images/pexels-nguyendesigner-20391378.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +189,7 @@ section {
     position: relative;
     font-size: 2rem;
     margin: 2rem 0 4rem;
-    line-height: 25px;
+    line-height: 30px;
 }
 .btn-box{
     position: relative;
@@ -238,7 +249,7 @@ section {
     right: 0;
     width: 45%;
     height: 70%;
-    background:url(../images/photo_2024-11-08_12-03-55.jpg) no-repeat;
+    background:url(../images/photo_2024-08-24_16-16-53.jpg) no-repeat;
     background-size: contain;
     background-position: center;
 }
@@ -576,7 +587,7 @@ span{
 }
 .contact form .input-box .input-field input::placeholder,
 .contact form .textarea-field textarea::placeholder{
-    color: rgba(255, 255, 255, 0.824);
+    color: #ffffffd2;
 } 
 .contact form .textarea-field{
     position: relative;
@@ -607,7 +618,7 @@ span{
 }
 
 .fotter-text p{
-    color: rgba(255, 255, 255, 0.824);
+    color: #ffffffd2;
     font-size: 2rem;
 }
 .fotter-nav{
